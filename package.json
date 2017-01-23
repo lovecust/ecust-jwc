@@ -1,0 +1,31 @@
+{
+  "name": "ecust-jwc",
+  "version": "0.9.0",
+  "description": "Ecust jwc mirror site.",
+  "main": "./jwc/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config development.config.js",
+    "build-production": "webpack --config production.config.js"
+  },
+  "keywords": [
+    "Ecust",
+    "jwc"
+  ],
+  "author": "Fisher",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-preset-env": "^1.1.6",
+    "babel-preset-react": "^6.16.0",
+    "material-ui": "^0.16.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "recharts": "^0.20.2",
+    "webpack": "^1.14.0",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
